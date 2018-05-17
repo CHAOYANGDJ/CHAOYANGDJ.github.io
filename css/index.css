@@ -61,7 +61,7 @@ h3.blogtitle { line-height: 30px; height: 30px; margin: 10px 0; }
 .links ul li { line-height: 24px; border: 1px solid #ccc; margin: 0 0 10px 0; padding: 5px; text-align: center; border-radius: 5px; }
 .links ul li:hover a { color: #096 }
 /*about me*/
-.aboutme { background: #FFF; border-radius: 10px; overflow: hidden }
+.aboutme { background: #FFF; border-radius: 1px; overflow: hidden }
 .ab_title { text-align: center; position: relative; margin: 20px; }
 .ab_title:before { content: ""; width: 25%; height: 2px; background: #000; position: absolute; left: 0; bottom: 8px }
 .ab_title:after { content: ""; width: 25%; height: 2px; background: #000; position: absolute; right: 0; bottom: 8px }
