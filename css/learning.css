@@ -1,0 +1,116 @@
+@charset  "utf-8";
+.learning_title {
+    padding: 0 10px; 
+    line-height: 40px;
+    height: 40px; 
+    font-size: 20px; 
+    border-bottom: 1px solid #e5e5e5; 
+    border-left: 5px solid #333; 
+    color: #333;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.learning_title span {
+    float: right; 
+    font-weight: normal; 
+    font-size: 18px; 
+    animation: ani-L-title 5s; 
+    -moz-animation: ani-L-title 5s;	/* Firefox */ 
+    -webkit-animation: ani-L-title 5s;	/* Safari and Chrome */ 
+    -o-animation: ani-L-title 5s; /*Opera*/
+}
+@keyframes ani-L-title {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+@-webkit-keyframes ani-L-title {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.learning_background{
+    min-height: 100vh;
+    margin-right: 10%;
+    margin-left: 10%;
+    background-color: white;
+/*  opacity: 0.9;
+    filter:alpha(opacity=80); /*ie6*/
+/*	-moz-opacity:0.8;/*Mozilla*/
+/*    -khtml-opacity: 0.8;/*old Safari */
+    overflow: hidden; 
+}
+.article_box{
+    float: left;
+    z-index: 100;
+    width: 100%;
+}
+.article_box ul{
+    list-style: none;
+    padding-right: 20px;
+}
+.article_box li{
+    border-bottom: #c0c0c0 1px solid; 
+    margin-bottom: 10px; 
+    overflow: hidden;
+}
+.blogtitle {
+    line-height: 30px; 
+    height: 30px; 
+    margin: 10px 0;
+}
+.blogtitle span{
+    background: #333; 
+    padding: 2px 5px; 
+    font-size: 14px; 
+    color: #FFF; 
+    border-radius: 2px; 
+    position: relative; 
+    margin-right: 20px 
+}
+.blogtitle a{
+    color: #000000;
+    text-decoration: none;
+    font-size: 16px
+}
+.bloginfo{
+    color: #333;
+    font-size: 14px;
+    line-height: 24px;
+}
+.autor{
+    width: 100%; 
+    overflow: hidden; 
+    clear: both; 
+    margin: 20px 0 0 0; 
+    display: inline-block; 
+    color: #838383; 
+    font-size: 12px; 
+}
+.autor span{
+    margin: 0 10px 0 0; 
+    padding-left: 20px 
+}
+.autor span a { color: #096; text-decoration: none;}
+.autor span a:hover { color: #0000a0; }
+
+.dtime { background: url(../image/clock.gif) no-repeat left center }
+.viewnum { background: url(../image/view.png) no-repeat left center }
+.f_l{  float: left;}
+.f_r{  float: right;}
+.more{ font-size: 14px;}
+.line { 
+    width: 0px; 
+    height: 2px; 
+    background: #333; 
+    -moz-transition: all 5s ease; 
+    -webkit-transition: all 5s ease; 
+    transition: all 5s ease; 
+}
+.article_box li:hover .line { width: 100%; }
